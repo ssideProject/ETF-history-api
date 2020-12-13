@@ -30,8 +30,8 @@ def history_tickers(ticker=None):
     ticker를 받아서 history를 보여준다.
     https://aws.github.io/chalice/tutorials/basicrestapi.html 사용법
 
-    start_date=20010505
-    end_date=20201010
+    start=20010505
+    end=20201010
     '''
 
     if ticker is None:
